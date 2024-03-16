@@ -1,0 +1,41 @@
+.nav-center {
+  width: 100%;
+  background-color: #e9e8f3;
+  height: 5rem;
+  position: fixed;
+  z-index: 100;
+}
+
+.positionFixed {
+  position: fixed;
+  z-index: 101;
+}
+
+.navBrand {
+  padding-top: 0.4rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* .logoT {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  padding-top: 1rem;
+  height: 5rem;
+  padding-left: 3rem;
+  background-color: rgb(0, 1, 4);
+} */
+
+/* .logoT img {
+  align-self: flex-start;
+  width: 4rem;
+} */
+
+/* @media (max-width: 1000px) {
+  .log0 {
+    margin-left: 0;
+  }
+} */

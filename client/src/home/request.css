@@ -1,0 +1,41 @@
+.form-title {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(216, 216, 240);
+  color: #000;
+}
+.form-title p {
+  text-align: center;
+  font-size: 1rem;
+  color: #000;
+}
+form {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+form textarea {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+form button {
+  width: 80%;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(124, 214, 124);
+  justify-self: center;
+  align-self: center;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+form label {
+  font-size: 1.2rem;
+  color: #000;
+}

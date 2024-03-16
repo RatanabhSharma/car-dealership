@@ -1,0 +1,19 @@
+.error {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10rem;
+  border-radius: 1rem;
+}
+
+.error h2 {
+  width: 800;
+  color: black;
+}
+.error h4 {
+  width: 700;
+}
+.error ul {
+  background-color: rgb(203, 203, 73);
+  border-radius: 1rem;
+}

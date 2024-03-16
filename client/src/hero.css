@@ -1,0 +1,231 @@
+/* Home page// wroking on the hero */
+.video {
+  position: relative;
+  width: 100%;
+}
+.position {
+  /* width: 100%; */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.welcom {
+  position: absolute;
+  margin-top: 0rem;
+}
+.heroContainer {
+  /* background-image: url(../public//images/melo.png); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-size: 100%;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0%;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  /* border: 1px solid red; */
+}
+.services a {
+  /* padding-left: 0.8rem; */
+  color: rgb(2, 2, 249);
+  text-decoration: underline;
+  font-size: 2.8rem;
+  font-weight: 700;
+  /* border: 1px solid white; */
+  text-align: center;
+  font-style: italic;
+}
+.services2 {
+  border-radius: 0.5rem;
+  margin-top: -2rem;
+}
+.services2 a {
+  padding-left: 0.8rem;
+  color: rgb(5, 5, 245);
+  font-size: 2rem;
+  font-weight: 600;
+  /* border: 1px solid red; */
+  padding-bottom: 0.5rem;
+  /* background-color: rgb(231, 114, 114); */
+}
+.services a:hover {
+  text-decoration: underline;
+  color: rgb(5, 5, 145);
+}
+.services2 a:hover {
+  text-decoration: underline;
+  color: rgb(4, 4, 159);
+}
+.services2 h5 {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  color: red;
+}
+
+.hero {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  font-weight: 900;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  color: red;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.hero .hero2 {
+  margin-top: 1rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.hero h1 span {
+  color: red;
+}
+h6 {
+  width: 75%;
+  margin: auto;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2rem;
+  color: #fff;
+}
+.button {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: red;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.button button {
+  background-color: red;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.button button a:hover {
+  color: hsl(205, 86%, 17%) !important;
+}
+.hero-icons {
+  margin-top: 10rem;
+  background-color: #111;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+.hero .instwats {
+  color: blue;
+  margin-top: -1.2rem;
+}
+@media (max-width: 800px) {
+  .services a {
+    font-size: 2rem;
+    color: white;
+  }
+  .services2 {
+    margin-top: 1rem;
+  }
+  .services2 a {
+    font-size: 1.4rem;
+    color: white;
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+  .hero1 {
+    margin-top: 5rem;
+    padding-top: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: red;
+  }
+  .services2 h5 {
+    color: rgb(251, 11, 11);
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .services2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services a {
+    color: rgb(5, 5, 248);
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .services {
+    gap: 0.3rem;
+  }
+  .services2 a {
+    color: rgb(5, 5, 248);
+    padding: 0rem;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .button {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+  .button button {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 354px) {
+  .services a {
+    font-size: 1.5rem;
+  }
+  .services2 h5 {
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .hero1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 240px) {
+  .services {
+    flex-direction: column;
+  }
+  .services h2 {
+    display: none;
+  }
+}

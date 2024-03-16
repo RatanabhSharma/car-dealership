@@ -1,0 +1,22 @@
+.images {
+  padding-top: 6rem;
+}
+
+.images .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images .flex img {
+  padding: 2rem;
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .images .flex {
+    flex-direction: column;
+  }
+  .images .flex img {
+    width: 90%;
+  }
+}

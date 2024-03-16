@@ -1,0 +1,16 @@
+.success {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10rem;
+  border-radius: 1rem;
+}
+
+.success h1 {
+  width: 800;
+  color: rgb(1, 79, 1);
+}
+.success h3 {
+  width: 700;
+  color: rgb(1, 79, 1);
+}
